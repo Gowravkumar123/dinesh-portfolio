@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Sai Dinesh Sankarapu | Portfolio</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* GLOBAL */
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:#020617;
+color:#e2e8f0;
+}
+
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#0f172a;
+padding:15px;
+text-align:center;
+z-index:1000;
+}
+
+nav a{
+color:#cbd5e1;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#3b82f6;
+}
+
+
+/* FULL SCREEN */
+
+section{
+height:100vh;
+padding:100px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+
+/* HOME */
+
+#home{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+
+/* TYPING */
+
+#typing{
+color:#3b82f6;
+font-weight:bold;
+height:30px;
+}
+
+
+/* BUTTON */
+
+.btn{
+background:#3b82f6;
+color:white;
+padding:15px 30px;
+margin:10px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#2563eb;
+}
+
+
+/* SKILLS */
+
+.skill{
+background:#0f172a;
+padding:12px;
+margin:8px;
+border-radius:20px;
+display:inline-block;
+}
+
+
+/* PROJECT */
+
+.project{
+background:#0f172a;
+padding:20px;
+margin:20px 0;
+border-left:5px solid #3b82f6;
+}
+
+.project:hover{
+transform:scale(1.02);
+}
+
+#projects h1{
+color:#3b82f6;
+}
+
+.project h2{
+color:#60a5fa;
+}
+
+.project p{
+color:#93c5fd;
+font-weight:bold;
+cursor:pointer;
+}
+
+.project:hover p{
+color:#3b82f6;
+}
+
+
+/* IMAGE */
+
+img{
+width:100%;
+border-radius:10px;
+margin-top:20px;
+}
+
+
+/* CONTACT */
+
+input,textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+background:#0f172a;
+color:white;
+border:none;
+}
+
+button{
+background:#3b82f6;
+border:none;
+padding:12px;
+font-weight:bold;
+cursor:pointer;
+color:white;
+}
+
+button:hover{
+background:#2563eb;
+}
+
+#msg{
+color:#3b82f6;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<section id="home">
+
+<h1>Sai Dinesh Sankarapu</h1>
+
+<h2 id="typing"></h2>
+
+<p>
+
+B.Tech Student – Artificial Intelligence & Data Science (3rd Year)
+<br>
+DNR College of Engineering and Technology, Bhimavaram, Andhra Pradesh
+<br><br>
+Based in Palakollu, Andhra Pradesh, India
+
+</p>
+
+<a href="#projects" class="btn">View Projects</a>
+<a href="#contact" class="btn">Contact Me</a>
+
+</section>
+
+
+
+<section id="about">
+
+<h1>Professional Summary</h1>
+
+<p>
+
+I am a highly motivated Artificial Intelligence and Data Science student with strong interest in developing intelligent software solutions.
+
+I possess hands-on experience in Machine Learning, Web Development, and Cloud technologies.
+
+My goal is to leverage AI to solve real-world problems and contribute effectively to innovative organizations.
+
+</p>
+
+</section>
+
+
+
+<section id="skills">
+
+<h1>Technical Skills</h1>
+
+<div class="skill">Python</div>
+<div class="skill">Machine Learning</div>
+<div class="skill">Deep Learning</div>
+<div class="skill">Generative AI</div>
+<div class="skill">Full Stack Development</div>
+<div class="skill">React JS</div>
+<div class="skill">SQL</div>
+<div class="skill">AWS Cloud</div>
+<div class="skill">Power BI</div>
+
+</section>
+
+
+
+<section id="projects">
+
+<h1>Projects</h1>
+
+<a href="#resumeDetails">
+<div class="project">
+<h2>AI Resume Screening System</h2>
+<p>Click to view full project</p>
+</div>
+</a>
+
+<a href="#chatDetails">
+<div class="project">
+<h2>Real Time Chat Application</h2>
+<p>Click to view full project</p>
+</div>
+</a>
+
+</section>
+
+
+
+<section id="resumeDetails">
+
+<h1>AI Resume Screening System</h1>
+
+<p>
+
+The AI Resume Screening System is an intelligent recruitment automation solution designed to streamline the hiring process.
+
+Traditionally, recruiters spend significant time manually reviewing resumes. This project solves that problem by using Artificial Intelligence and Natural Language Processing.
+
+<br><br>
+
+Key Functionalities:
+
+<br><br>
+
+• Automatically reads and analyzes resumes
+
+<br>
+
+• Extracts important information such as skills, education, and experience
+
+<br>
+
+• Compares candidate profiles with job requirements
+
+<br>
+
+• Ranks candidates based on relevance score
+
+<br>
+
+• Helps recruiters shortlist the best candidates quickly
+
+<br><br>
+
+Technologies Used:
+
+<br>
+
+Python  
+Machine Learning  
+Natural Language Processing  
+Scikit-learn  
+
+<br><br>
+
+Impact:
+
+<br>
+
+This system significantly reduces manual effort and improves hiring efficiency.
+
+</p>
+
+<img src="images/resume-screening.png">
+
+</section>
+
+
+
+<section id="chatDetails">
+
+<h1>Real Time Chat Application</h1>
+
+<p>
+
+The Real Time Chat Application is a web-based communication platform that allows users to exchange messages instantly.
+
+This project demonstrates full stack development and real-time data handling.
+
+<br><br>
+
+Key Features:
+
+<br><br>
+
+• Instant real-time messaging
+
+<br>
+
+• User-friendly interface
+
+<br>
+
+• Fast message delivery
+
+<br>
+
+• Responsive design for all devices
+
+<br>
+
+• Secure and efficient communication
+
+<br><br>
+
+Technologies Used:
+
+<br>
+
+HTML  
+CSS  
+JavaScript  
+Firebase  
+
+<br><br>
+
+Impact:
+
+<br>
+
+This project shows the ability to build scalable real-time applications used in modern software systems.
+
+</p>
+
+<img src="images/chat-application.png">
+
+</section>
+
+
+
+<section id="contact">
+
+<h1>Contact Me</h1>
+
+<form onsubmit="sendMsg(event)">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message" required></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+<p id="msg"></p>
+
+<p>Email: ssaaii73822@gmail.com</p>
+
+<p>LinkedIn: Sai Dinesh Sankarapu</p>
+
+<p>GitHub: Sai Dinesh Sankarapu</p>
+
+</section>
+
+
+
+<script>
+
+const text="Aspiring AI Engineer | Data Scientist | Software Developer";
+
+let i=0;
+
+function typing(){
+
+if(i<text.length){
+
+document.getElementById("typing").innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typing,60);
+
+}
+
+}
+
+typing();
+
+
+function sendMsg(e){
+
+e.preventDefault();
+
+document.getElementById("msg").innerHTML="Message Sent Successfully!";
+
+}
+
+</script>
+
+
+</body>
+</html>
